@@ -1,6 +1,6 @@
 require_relative 'lib/remont/version'
 
-Gem::Specification.new do |spec|
+Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.name          = 'remont'
   spec.version       = Remont::VERSION
   spec.authors       = ['Rails Team']
@@ -8,6 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'DSL for row level data processing.'
   spec.homepage      = 'https://github.com/infinum/remont'
+  spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.7.0')
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
