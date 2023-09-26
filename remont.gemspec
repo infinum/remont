@@ -1,6 +1,6 @@
 require_relative 'lib/remont/version'
 
-Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
+Gem::Specification.new do |spec|
   spec.name          = 'remont'
   spec.version       = Remont::VERSION
   spec.authors       = ['Rails Team']
