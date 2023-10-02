@@ -11,3 +11,6 @@ RSpec/MultipleExpectations:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Gemspec/DevelopmentDependencies:
+  EnforcedStyle: gemspec
