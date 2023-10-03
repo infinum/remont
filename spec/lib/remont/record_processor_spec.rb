@@ -10,9 +10,9 @@ RSpec.describe Remont::RecordProcessor do
       attribute(:role) { 'role' }
     end
   end
-  let(:callback) { instance_double('Proc', call: nil) }
+  let(:callback) { instance_double(Proc, call: nil) }
   let(:record) do
-    instance_double('User', email: 'bob@example.com', role: 'admin', update_columns: nil)
+    instance_double(User, email: 'bob@example.com', role: 'admin', update_columns: nil)
   end
 
   it 'updates record with processed attributes' do

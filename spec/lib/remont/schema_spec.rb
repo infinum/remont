@@ -116,7 +116,7 @@ RSpec.describe Remont::Schema do
   end
 
   context 'with before callback specified' do
-    let(:callback) { instance_double('Proc', call: nil) }
+    let(:callback) { instance_double(Proc, call: nil) }
 
     let(:schema) do
       cb = callback
@@ -140,7 +140,7 @@ RSpec.describe Remont::Schema do
   end
 
   context 'with after callback specified' do
-    let(:callback) { instance_double('Proc', call: nil) }
+    let(:callback) { instance_double(Proc, call: nil) }
 
     let(:schema) do
       cb = callback
